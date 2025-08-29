@@ -1,0 +1,109 @@
+:root {
+  color-scheme: dark light;
+}
+
+.contenedor {
+  width: 300px;
+  background: #222b6f;
+  padding: 15px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.cuerpo {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.cabeza {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.centro {
+  width: 170px;
+  height: 150px;
+  margin: auto;
+  > .derecho {
+    right: -16px;
+    rotate: -20deg;
+  }
+  > .izquierdo {
+    left: -17px;
+    rotate: 20deg;
+  }
+}
+
+.brazos {
+  width: 15px;
+  top: 60px;
+  height: 100px;
+  background: #713815;
+  position: absolute;
+  border-radius: 0 0 50px 50px;
+}
+
+.base {
+  width: 250px;
+  height: 200px;
+  margin: auto;
+}
+
+.ojos {
+  width: 15px;
+  height: 15px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+}
+
+.izquierdo {
+  left: 25px;
+}
+
+.derecho {
+  right: 25px;
+}
+
+.boca{
+  width: 50px;
+  height: 10px;
+  position: absolute;
+  background: #000;
+  top: 60px;
+  left: 25px;
+  border-radius: 0 0 50px 50px;
+}
+
+.botones {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.sombrero {
+  width: 100px;
+  height: 20px;
+  background: #713815;
+  position: relative;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.copa {
+  width: 60px;
+  height: 50px;
+  background: #713815;
+  position: relative;
+  margin: auto;
+  border-radius: 15px 15px 0 0;
+}
+
